@@ -54,24 +54,54 @@ img {
     height: 30px;
 }
 
-.cards .col {
-    width: 33%;
+/* MAIN STYLE */
+.card-container .row{
+    gap:10px
 }
 
-.col{
-    padding: 10px;
+.card-container .card {
+    width: calc(100% / 3);
+}
+
+.card{
+    border: solid 1px rgb(228, 228, 228);
+    
 }
 
 .title {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 70px 50px 0;
+    padding: 70px 0 50px 0;
 }
 
 h3 {
     font-size: 30px;
+    font-weight: 500;
 }
 
 h4 {
     font-size: 20px;
+    font-weight: 500;
+}
+
+.card-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.card-description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.card-price {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+strike{
+    color: black;
 }
