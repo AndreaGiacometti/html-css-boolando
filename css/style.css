@@ -56,12 +56,9 @@ img {
 
 /* MAIN STYLE */
 .card-container .row{
-    gap:10px
+    
 }
 
-.card-container .card {
-    width: calc(100% / 3);
-}
 
 .card{
     border: solid 1px rgb(228, 228, 228);
@@ -104,4 +101,10 @@ h4 {
 
 strike{
     color: black;
+}
+
+.col{
+    width: calc(100%/3);
+    padding: 15px;
+    margin-bottom: 20px;
 }
